@@ -1,0 +1,101 @@
+/* CSS used across all webpages
+   Author: Colin Toryfter
+   Last Updated: 04/10/25 */
+
+@font-face {
+    font-family: 'Cinderela';
+    src: url(CinderelaPersonalUseRegular-RDvM.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Teachy';
+    src: url(Feelin\ Teachy\ TTF.ttf) format('truetype');
+}
+
+body {
+    background: linear-gradient(to bottom, #adb6fb, #20f1cf) !important;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #fff0f0;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+.error {
+    color: red;
+}
+
+a {
+    margin-right: 10px;
+}
+
+.hover {
+    cursor: pointer;
+}
+
+#center {
+    text-align: center;
+}
+
+.undo-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.undo-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.delete-all-btn {
+    background-color: #ff4444;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0 10px 10px;
+}
+
+.delete-all-btn:hover {
+    background-color: #cc0000;
+}
+
+.center { 
+    text-align: center; 
+}
+
+.fancyText {
+    font-family: 'Cinderela';
+}
+
+#teachy {
+    font-family: 'Teachy';
+}
