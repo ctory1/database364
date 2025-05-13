@@ -19,10 +19,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['toggle_show_all'])) {
 }
 
 // Database connection
-$host = '138.49.184.47';
-$dbname = 'toryfter1794_movie_db';
-$username = '';
-$password = ';
+$host = 'localhost';
+$dbname = 'movie_db';
+$username = 'root';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
