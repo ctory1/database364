@@ -1,4 +1,4 @@
-Make sure you clone the reel-deal-database from git
+Make sure you clone the database properly
 
 do this by clicking the clone button and then copying the command into your terminal
 
@@ -12,7 +12,6 @@ Then run: pecl install pdo_php
 Now you need to navigate to the reel-deal-database on your local host: cd reel-deal-database
 Once you have done that, you need to open the index.php and actors.php and change your username and password
 
-your password will be the password foley gave you to access mysql and you username is you uwl lastname and numbers
 
 Once you have completed these steps, make sure mysql is running: brew services start mysql
 Now follow the step below
